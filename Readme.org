@@ -1,0 +1,12 @@
+** JanKen
+The name is a japanese word for Rock-Paper-Scissors. It verifies computer moves by generating HMAC so that computer does not cheat. 😊
+
+** Workflow
+- User gives moves name as command line arguments(odd number of). 
+- Computer makes the move and generates [[https://en.wikipedia.org/wiki/HMAC][HMAC]] and shows it to the user.
+- User makes his/her choice.
+- When user also makes the move, computer shows the result.
+- Computer then shows the 'HMAC key' so that user can verify computer did not cheat.
+
+** Demo
+[[./demo.gif]]
